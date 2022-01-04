@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -9,8 +14,13 @@ header{
     left:0;
     background-color: #045d8b;
 }
-
-#menu{
+main{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#menu-btn{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +34,7 @@ header{
     margin-left: 5px;
 }
 
-#menu>span{
+#menu-btn>span{
     display: block; 
     width: 100%; 
     height: 4px; 
@@ -70,5 +80,60 @@ header{
 
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #CFDAFF;
+    color:#fff;
+    width: 178px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: -175px;
+    bottom: 0;
+    margin-top: 60px;
+    transition: 1s ease;
+}
 
+.menu{
+    margin: 76px 0;
+    list-style: none;
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.menu:nth-child(1){
+    margin-top:10px;
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.board_list_wrap{
+    width: 100%;
+    height: 80%;
+}
+
+.board_list_body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.item > div{
+    display: inline-block;
+}
