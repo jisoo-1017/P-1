@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+/* 상단바*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #045d8b;
+}
+.menu-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-left:5px;
+}
+.menu-btn>span{
+    display: block; 
+    width: 100%; 
+    height: 4px; 
+    background: #ffffff; 
+    border-radius: 10px; 
+}
+.logo{
+    width: 161px;
+    height: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.login-btn{
+    width: 45px;
+    height: 21px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 5px;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #CFDAFF;
+    width: 178px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -178px;
+    margin-top: 48px;
+    transition: 1s ease;
+}
+.menu{
+    margin: 76px 0;
+    list-style: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000;
+}
+.menu-lists{
+    padding: 0;
+}
+
+.menu:nth-child(1){
+    margin-top:10px;
+}
+
+/* 게시글 목록 */
+.main{
+    width: 100%;
+    height: 509px;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: none;
+}
+.title{
+    margin-left: 100px;
+}
+.enroll-btn{
+    margin-right: 100px;
+}
+.board-wrap{
+    display: flex;
+    justify-content: center;
+}
+.board-body{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.item{
+    display: table-cell;
+    text-align: center;
+    line-height: 67px;
+}
+.date{
+    width: 100px;
+}
+.text{
+    width: 300px;
+}
+.private{
+    width: 100px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.number-list{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-list{
+    list-style: none;
+}
+.menu_on{
+    left: 0;
+}

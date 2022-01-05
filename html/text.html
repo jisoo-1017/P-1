@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AJOUMemo</title>
+        <link rel="stylesheet" href="text.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <button type="button" name="menu-button" class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="logo">AJOUMemo</div>
+                <button type="button" name="login-button" class="login-btn">Login</button>
+                <section>
+                    <ul class="menu-lists">
+                        <li class="menu"><a href="#">자유 게시판</a></li>
+                        <li class="menu"><a href="#">비밀 게시판</a></li>
+                        <li class="menu"><a href="#">정보 게시판</a></li>
+                        <li class="menu"><a href="#">홍보 게시판</a></li>
+                        <li class="menu"><a href="#">SW 게시판</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main">
+               <div class="text-container">
+                   <div class="select-box">
+                       <select>
+                           <option>자유 게시판</option>
+                           <option>비밀 게시판</option>
+                           <option>정보 게시판</option>
+                           <option>홍보 게시판</option>
+                           <option>SW 게시판</option>
+                       </select>
+                   </div>
+                   <div class="title-box">
+                       <input type="text" style="overflow: scroll; width: 560px" class="title-text">
+                   </div>
+                   <div class="text-box">
+                       <textarea class="text"></textarea>
+                   </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="text-btn">글쓰기</button>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

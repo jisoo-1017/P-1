@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('.menu-btt');
+const menuBtn = document.querySelector('.menu-btn');
 const section = document.querySelector('section');
 check=0;
 
