@@ -1,64 +1,10 @@
-# 🤗 Welcome !! AJOU BEGINNER
+# 프로젝트 실습, 학습 내용
 
-<div align=center>
+## 1/8 Node_Study
 
-[![CONTRIBUTORS](https://img.shields.io/badge/contributors-30-green.svg?style=flat-square)](https://github.com/AJOU-BEGINNER/P-1)
-
-<a href="https://github.com/AJOU-BEGINNER/P-1/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AJOU-BEGINNER/P-1" />
-</a>
-
-</div>
-
-## 🧑🏻‍💻 Introduce
-
-안녕하세요, 소프트웨어학과 16학번 **[jin-Pro](https://github.com/jin-Pro)** 입니다. <br/>
-아주대학교 학생들을 위한 웹 풀스택 스터디입니다. <br/>
-22년 1월 총 30명의 학생들이 참여하였으며 <br/>
-총 4주간 2번의 프로젝트가 진행됩니다. <br/>
-모두 무난하게 수료하시길 기원합니다. <br/>
-화이팅!! 👍
-
----
-
-## 🔥 Goal
-
-우리는 웹 풀스택 스터디를 통해
-
-- 웹 동작 흐름
-- HTTP 통신
-- JavaScript를 통한 DOM 동작 방법
-- SPA
-- Express를 통한 서버 구축
-- MySQL을 통한 데이터베이스 구축
-
-학습을 하여 성장할 계획입니다! 🔥 🔥
-
----
-
-## 🎸 기타
-
-혹시 저희 스터디를 관리하는 [저장소](https://github.com/AJOU-BEGINNER/P-1)로 인하여 <br/>
-문제 발생시 [연락망](https://velog.io/@jinpro)으로 연락 주시면 감사하겠습니다. <br/>
-저장소를 찾아주셔서 감사합니다. 🙇🏻 <br/>
-
----
-
-## 참고
-
-- [디자인 및 기획서](https://www.figma.com/file/FMcTfiuDucOpEs2j6fh3XL/2022-Ajou-Beginner-Project-1-1?node-id=1%3A2)
-
-- [Figma 사용법](https://slash-amaranthus-65c.notion.site/Figma-c1dead5d929d44498e94641f8058e10d)
-
-- [프로젝트 조건](https://slash-amaranthus-65c.notion.site/P-1-0f22a61c074f4a86a57e01acdb8f3457)
-
-- [Git 사용법](https://github.com/code-squad/codesquad-docs/blob/master/codereview/README.md)
-
----
-
-## 스터디 순서
-
-1. Git 사용법을 참고하여 repo를 clone 받습니다.
-2. Figma 사용법을 확인하여 기획서를 확인합니다.
-3. 디자인 및 기획서를 보고 학습 계획 및 개발 계획을 세웁니다.
-4. 프로젝트 조건을 따르면서 학습 및 개발을 진행합니다.
+- 콘솔에서 입력값을 주어 js에서 다른 아웃풋을 만드는 과정을 배웠다. 
+- var args = process.argv; // 콘솔에서 입력하는 값을 가져올 수 있다.
+- url.parse(_url,true) 이것을 사용해서 사용자가 입력하는 url을 파싱하여 필요한 데이터를 객체화 시켜 편리하게 가져올 수 있다.
+-  서버와 브라우저 사이에 데이터가 잘 오가는지 확인하는 과정이 필요하다. 서버가 200을 줬을 경우 파일을 성공적으로 전송했다는 뜻이고, 파일을 전송하지 못했을 경우에는 서버는 404를 준다.
+-  java script에서의 while문은 c와 같다.
+-  반복문과 array를 이용하여 자동으로 html list를 추가할 수 있다.
