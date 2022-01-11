@@ -16,3 +16,5 @@
 - callback
 - pm2 라이브러리
 - html form tag에 대해서 학습
+- notion에 자세한 내용 기록
+- https://www.notion.so/1-11-a962de7cc6fc4ccd8e43040bc29e02b4
