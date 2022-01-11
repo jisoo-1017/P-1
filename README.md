@@ -8,3 +8,11 @@
 -  서버와 브라우저 사이에 데이터가 잘 오가는지 확인하는 과정이 필요하다. 서버가 200을 줬을 경우 파일을 성공적으로 전송했다는 뜻이고, 파일을 전송하지 못했을 경우에는 서버는 404를 준다.
 -  java script에서의 while문은 c와 같다.
 -  반복문과 array를 이용하여 자동으로 html list를 추가할 수 있다.
+
+
+## 1/11 node_study
+- java scpript의 function 구조
+- 동기와 비동기
+- callback
+- pm2 라이브러리
+- html form tag에 대해서 학습
