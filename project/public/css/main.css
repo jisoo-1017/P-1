@@ -4,13 +4,78 @@ body{
 
 #root{
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(170, 192, 192);
+    background-color: #ffffff;
 }
 
 #head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 60px;
-    background-color: aquamarine;
+    background-color: #045d8b;
+}
+#menu{
+    border: none;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#AJOUMemo{
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+#login{
+    border: none;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #CFDAFF;
+    width: 178px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -178px;
+    transition: 1s ease;
+    margin-top: 60px;
+}
+.item{
+    margin: 76px 0;
+    list-style: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000;
+}
+
+#menu_list{
+    padding: 0;
+}
+.item:nth-child(1){
+    margin-top:10px;
+}
+.menu_on{
+    left: 0;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    flex: 1;
 }

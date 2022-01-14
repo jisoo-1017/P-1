@@ -1,5 +1,11 @@
-import HEAD from "./head.js";
+import SECTION from "./sidemenu.js";
 
-const $ = document;
-var root = $.getElementById("root");
-HEAD(root);
+const $ = document
+const main_con = $.createElement('div');
+main_con.className = "main";
+
+SECTION(main_con);
+
+export default function MAIN(root){
+    root.append(main_con);
+}
